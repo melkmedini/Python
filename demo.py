@@ -44,6 +44,7 @@ class ParentDep(IDepartment):
 dept1= Accounting(200)
 dept2= Secops(150)
 dept3= Secops(5) 
+dept4= Accounting(55)
 parent_dep = ParentDep(50)
 parent_dep.add(dept1)
 parent_dep.add(dept2)
