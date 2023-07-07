@@ -42,10 +42,12 @@ class ParentDep(IDepartment):
             print(f"total number of employyes : {self.employees}")
 
 dept1= Accounting(200)
-dept2= Secops(150) 
+dept2= Secops(150)
+dept3= Secops(5) 
 parent_dep = ParentDep(50)
 parent_dep.add(dept1)
 parent_dep.add(dept2)
 
 parent_dep.print_department()
+
 
